@@ -15,3 +15,8 @@ Initialize a FAISS index with the appropriate dimensions and add job embeddings 
 Load the tokenizer and generative model (e.g., LlamaForCausalLM). Move the model to GPU if available for faster processing.
 ### Query Processing: 
 Use the retrieval function to get relevant job postings based on user queries. Generate a personalized response using the generative model.
+
+### Requirements
+Install Sentence Transformer and Faiss libraries through below commands
+!pip install sentence-transformers beautifulsoup4
+!pip install faiss-cpu
