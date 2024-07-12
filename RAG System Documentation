@@ -1,0 +1,24 @@
+1. Introduction
+The Retrieval-Augmented Generation (RAG) system is designed to provide personalized skill recommendations and career advice to users based on their queries about specific job roles. The system leverages both retrieval-based techniques and generative models to craft tailored responses.
+
+2. System Architecture
+The RAG system comprises three main components:
+
+Data Preparation: Process job data to create document embeddings.
+Retrieval Component: Retrieve relevant job postings using vector similarity search.
+Generation Component: Generate personalized responses using a generative model.
+
+3. Data Preparation
+Objective: Utilize the provided jobs data to create document embeddings using Sentence Transformers.
+
+Steps:
+Load Job Data: Read the jobs data which includes fields like job title, job description, job requirements, and career level.
+Create Document Embeddings: Use Sentence Transformers to encode job details into dense vectors.
+
+4. Retrieval Component
+Objective: Retrieve relevant job postings based on user queries using a vector database like Elasticsearch with ElastiKNN, Faiss, or Pinecone.
+
+Steps:
+Initialize Vector Database: We’ll use Pinecone for this example.
+Store Embeddings: Upsert job embeddings into the Pinecone index.
+Search Mechanism: Embed user query and perform vector similarity search.
