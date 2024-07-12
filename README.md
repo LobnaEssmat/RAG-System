@@ -2,7 +2,7 @@
 RAG system that can provide personalized skill recommendations and career advice to users based on their queries about specific job roles
 
 
-# Data Loading: 
+### Data Loading: 
 Ensure the job data CSV file is correctly placed and accessible. Load the data and preprocess it by combining job descriptions and requirements.
 # Embedding Creation: 
 Initialize the Sentence Transformer model and create embeddings for the combined job details in manageable chunks.
