@@ -1,6 +1,9 @@
 # RAG-System
 RAG system that can provide personalized skill recommendations and career advice to users based on their queries about specific job roles
 
+![image](https://github.com/user-attachments/assets/52b8a42e-1042-4f47-ad7f-66ae109d6de8)
+
+
 
 ### Data Loading: 
 Ensure the job data CSV file is correctly placed and accessible. Load the data and preprocess it by combining job descriptions and requirements.
